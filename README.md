@@ -115,7 +115,7 @@ AWS_ACCESS_KEY_ID=...
 AWS_SECRET_ACCESS_KEY=...
 S3_BUCKET=your-secure-bucket
 KMS_KEY_ID=your-kms-key-id
-SNS_TOPIC_ARN=arn:aws:sns:ap-south-1:123456789012:appointments
+SNS_TOPIC_ARN=arn:aws:sns:ap-south-1:123xxxxxxxx:appointments
 ```
 
 ### 4) Run
@@ -150,7 +150,3 @@ cd client && npm start
 - Autoscaling & S3 lifecycle tiers for cost controls
 
 ---
-
-## 📜 License
-
-MIT (or update to your preferred license)
