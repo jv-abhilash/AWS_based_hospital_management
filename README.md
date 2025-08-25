@@ -8,7 +8,7 @@ and **time‑bound signed URLs**. The system logs all sensitive actions for audi
 
 ---
 
-## 📸 System Diagrams
+##  System Diagrams
 
 ### 1) High‑Level Component Diagram
 ![High-Level Component Diagram](docs/images/high-level-diagram.jpg)
@@ -55,7 +55,7 @@ and **time‑bound signed URLs**. The system logs all sensitive actions for audi
 
 ---
 
-## 🧱 Architecture (at a glance)
+##  Architecture (at a glance)
 
 - **Client (React):** protected routes and role‑aware pages  
 - **Server (Node.js/Express):** JWT auth, RBAC, REST APIs, hashing, logging  
@@ -129,7 +129,7 @@ cd client && npm start
 
 ---
 
-## 🔐 Security Model
+##  Security Model
 
 - **RBAC:** role stored with user; backend routes & frontend components gated on role  
 - **Auth:** JWT with sensible expiry (e.g., 1h)  
@@ -141,7 +141,7 @@ cd client && npm start
 
 ---
 
-## 🛣️ Roadmap
+##  Roadmap
 
 - Stronger crypto patterns and key rotation
 - EHR/EMR integrations via APIs
