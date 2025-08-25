@@ -1,0 +1,76 @@
+.button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 350px;
+    margin: 30px auto;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 70px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    background: #fff; /* Optional: adds background color */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.login-form {
+    display: grid;
+    gap: 15px;
+}
+
+.form-group {
+    position: relative;
+    margin-top: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+.form-group label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #666;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    background-color: #fff;
+    padding: 0 5px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #5C67F2;
+}
+
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label {
+    top: -15px;
+    font-size: 12px;
+    color: #5C67F2;
+}
+
+.error {
+    color: red;
+    font-size: 0.875em;
+}

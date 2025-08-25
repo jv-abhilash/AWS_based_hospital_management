@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #4CAF50;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+    width: 100%; /* Full viewport width */
+  }
+  
+  main {
+    flex-grow: 1; /* Allows the main content to expand and push the footer down */
+  }
+  
+  footer {
+    background-color: #7e5b5b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    padding: '10px 0';
+    font: '0.5rem';
+  }
+  
