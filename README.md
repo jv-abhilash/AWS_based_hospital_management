@@ -38,8 +38,6 @@ and **time‑bound signed URLs**. The system logs all sensitive actions for audi
 ![External Integration Diagram](docs/images/external-integration-diagram.jpg)
 *External services used by the system (AWS S3 for storage, KMS for encryption, IAM for permissions, SNS for notifications).*
 
-> **Tip:** If you place images in a different folder, change the paths above. Recommended location is `docs/images/` inside the repo.
-
 ---
 
 ## ✨ Key Features
